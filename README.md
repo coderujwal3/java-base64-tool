@@ -37,7 +37,7 @@ sudo apt install openjdk-22-jdk lolcat -y
 ```
 
 ## 📁 Project Structure
-java-base64-tool/
+java-base64-tool/<br/>
 ├── Encode.java       # Java program to encode text using Base64<br/>
 ├── Decode.java       # Java program to decode Base64 strings<br/>
 ├── build.sh          # Bash script to compile both files with a colorful banner<br/>
