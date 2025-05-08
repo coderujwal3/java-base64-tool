@@ -7,10 +7,10 @@ echo -e "==============================\n" | lolcat
 
 # Compiling the Encode and Decode files
 echo "[*] Compiling Encode.java..." | lolcat
-javac Encode.java && echo "[✔] Encode.java compiled successfully!" | lolcat
+javac --release 17 Encode.java && echo "[✔] Encode.java compiled!" | lolcat
 
 echo "[*] Compiling Decode.java..." | lolcat
-javac Decode.java && echo "[✔] Decode.java compiled successfully!" | lolcat
+javac --release 17 Decode.java && echo "[✔] Decode.java compiled!" | lolcat
 
 # Last Message 
 echo -e "\nReady to use!" | lolcat
