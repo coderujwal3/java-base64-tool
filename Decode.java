@@ -8,6 +8,6 @@ public class Decode {
         String message = bf.readLine();
         byte[] arr = Base64.getDecoder().decode(message);
         String decodedString = new String(arr);
-        System.out.println(decodedString);
+        System.out.println("Decoded Message = "+decodedString);
     }
 }
